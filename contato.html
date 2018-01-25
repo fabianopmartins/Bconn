@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> FM | Desenvolvimentos</title>
+		<meta name="description" content="Foco em Desenvolvimento.">
+		<meta name="keywords" content="Sites, Programas.">
+		<meta name="author" content="Fabiano Martins">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+		<link rel="icon" href="imagens/icon.png">
+		<script type="text/javascript" src="javascript/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+
+		<!-- TOPO DO BOTÃÓ -->
+		<div id="thisIsTheTop"></div>
+
+		<!-- CABEÇALHO -->
+		<header class="cabecalho container">
+			<a href="index.html"><h1 class="logo"> FM | Desenvolvimentos</h1></a>
+			<button class="btn-menu bg-gradiente bg-white"> <i class="fa fa-bars fa-lg" aria-hidden="true"></i> </button>
+			<nav class="menu bg-white">	
+				<a class="btn-close"><i class="fa fa-times"></i></a>
+				<ul>
+					<li><a class="bg-white" href="index.html">Quem Sou Eu</a></li>
+					<li><a class="bg-white" href="portfolio.html">Portfólio</a></li>
+					<li><a class="bg-white" href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</header>		
+		
+		<!-- BANNER -->
+		<div class="banner">
+			<div class="title">
+				<h2>Desenvolvedor Web Júnior</h2>
+				<h3>Desenvolvimento de sites e programas com qualidade.</h3>
+			</div>
+		</div>
+
+		<!-- CORPO DO SITE -->
+
+			<!-- FORMULÁRIO DE CONTATOS -->
+
+			<div class="pgContato">  
+			 	<div class="contato">  
+	    	    	<div class="formContato">  
+	        			<form action="contato.php" id="formContato" method="post" tabindex="1">  
+			           		<input type="text" id="nome" name="txtnome" placeholder="Nome Completo" required />  
+				      		<input type="email" id="email" name="txtemail" placeholder="Digíte seu E-mail" required />  
+				            <input type="tel" id="tel" name="txttelefone" placeholder="(21)xxxx-xxxx" />  
+				            <textarea id="conteudo" name="txtmensagem" placeholder="Digíte sua mensagem" required ></textarea><br/> 
+				            <button type="submit" class="botaoContato">Enviar</button>  
+				        </form>  
+				    </div>  
+				</div>  
+			</div>  
+
+		<!-- BOTÃO VOLTAR PARA CIMA -->
+
+		<img id="goToTopImg" src="imagens/arrow.png" border="0px" class="goToTop"  />
+
+		<!-- RODAPÉ -->
+
+		<footer class="rodape container bg-gradiente">
+			<div class="social-icons">
+				<a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
+				<a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
+				<a href="http://www.google.com"><i class="fa fa-google"></i></a>
+				<a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+				<a href="http://fabiano.p.martins@gmail.com"><i class="fa fa-envelope"></i></a>
+			</div>
+			<p class="copyright">Copyright &copy; FM 2018. Todos os direitos reservados.</p>
+		</footer>
+		<script type="text/javascript" src="javascript/script.js"></script>
+	</body>
+</html>
